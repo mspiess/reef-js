@@ -134,7 +134,7 @@ function template () {
 
 // Create a component
 // Renders into the UI, and updates whenever the data changes
-component('#app', template);
+component('#app', template());
 
 // The UI will automatically update
 data.greeting = 'Hi';
